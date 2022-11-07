@@ -5,25 +5,27 @@
     <head>  <!--input info about webpage, not for display content-->
         <meta charset="UTF-8"> <!--Ensures webpage will display special symbols from different languages correctly-->
         <title>Welcome to Kriselle's Landing Page</title> <!--displayed on webpage's browser tab-->
+        <link rel="stylesheet" href="stylesheet.css"> <!--links stylesheet css to html file-->
     </head>
 
 
     <body>  <!--where all elements go-->
         <!--Header Section-->
-
-        <h2>Header Logo</h2> <!--heading, can go down to 6-->
-
-        <!--Header links-->
-        <a>A little bit about me</a> <!--the anchor'<a></a> is for links-->
-        <a>things I'm working on</a>
-        <a>my creative side</a>
-
-        <!--Top Section-->
-        <h1>Hi! Welcome to my first landing page!</h1>
-        <p>I started coding recently and TheOdinProject in the summer. Hope you like!</p>
-        <button class="button">Click me!</button> <!--Created a button-->
-        <img src="images/Its_A_Me!.jpg">
-
+        <div class="topsection">
+            <div class="header">
+                <p class="logo">Header Logo</p> <!--heading, can go down to 6-->
+                <div class="headerlinks">
+                    <a>About Me</a> <!--the anchor'<a></a> is for links-->
+                    <a>Projects</a>
+                    <a>GitHub</a>
+                </div>
+            </div>
+            <!--Top Section-->
+            <h1>Hi! Welcome to my first landing page!</h1>
+            <p>I started coding recently and TheOdinProject in the summer. Hope you like!</p>
+            <button class="button">Click me!</button> <!--Created a button-->
+            <img class="me" src="images/Its_A_Me!.jpg">
+        </div>
         <!--Image Section-->
         <h2>Some random information</h3>
         <img src="">

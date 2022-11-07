@@ -1,4 +1,33 @@
-img{
-    width: 30px;
-    height: 30px;
+.me{
+    width: 100px;
+    height: 150px;
+}
+
+.topsection{
+background-color: #1f2937;
+border: none;
+}
+.header{
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8; 
+    justify-content: space-around;
+    padding-top: 10px;
+} 
+
+.logo{
+    font-size: 24px;
+    margin: 0px;
+}
+
+.headerlinks{
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+}
+
+body{
+    font-family: 'Dekko'; /*changes font for whole body*/
+    margin:0px;
+    padding: 0px;
 }
