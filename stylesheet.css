@@ -6,11 +6,12 @@
 .topsection{
 background-color: #1f2937;
 border: none;
+color: #f9faf8;
+
 }
 .header{
     display: flex;
     background-color: #1f2937;
-    color: #f9faf8; 
     justify-content: space-around;
     padding-top: 10px;
 } 
@@ -30,4 +31,27 @@ body{
     font-family: 'Dekko'; /*changes font for whole body*/
     margin:0px;
     padding: 0px;
+    flex-wrap: wrap;
+}   
+
+.sectionOne{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    justify-content: center;
 }
+
+.introHeading{
+    font-size: 24px;
+}
+
+.left-side{
+    margin-right: 10px;
+    width: 50%;
+}
+
+.button{
+    display: flex;
+}
+
