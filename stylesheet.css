@@ -64,6 +64,11 @@ img{
 .imageheader{
     display:flex;
     justify-content: center;
+    padding-bottom: 10px;
+    font-size: 36px;
+    font-weight: bolder; /*extra bold*/
+    color: #1f2937;
+
 }
 .imagesection{
     display: flex;
