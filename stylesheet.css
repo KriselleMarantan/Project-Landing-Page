@@ -55,3 +55,25 @@ body{
     display: flex;
 }
 
+img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.imageheader{
+    display:flex;
+    justify-content: center;
+}
+.imagesection{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+}
+
+info{
+    max-width: 300px;
+    display: flex;
+}
