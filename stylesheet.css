@@ -76,9 +76,11 @@ img{
     flex-wrap: wrap;
     gap: 10px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 info{
     max-width: 300px;
     display: flex;
 }
+
