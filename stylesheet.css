@@ -28,7 +28,7 @@ color: #f9faf8;
 }
 
 body{
-    font-family: 'Dekko'; /*changes font for whole body*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; /*changes font for whole body*/
     margin:0px;
     padding: 0px;
     flex-wrap: wrap;
@@ -99,4 +99,32 @@ info{
     color: #1f2937;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.contact{
+    display: flex;
+    padding: 50px;
+}
+
+.callAction{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px; /*rounds corners*/
+    padding: 50px;
+    color: white;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 20px;
+}
+.callActionquote{
+    display: flex;
+    color: white;
+}
+
+.signupproduct{
+    display: flex;
+}
+
+.sign{
+    display: flex;
 }
