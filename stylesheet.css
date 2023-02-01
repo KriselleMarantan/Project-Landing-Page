@@ -32,6 +32,7 @@ body{
     margin:0px;
     padding: 0px;
     flex-wrap: wrap;
+    align-items: center;
 }   
 
 .sectionOne{
@@ -104,28 +105,38 @@ info{
 
 .contact{
     display: flex;
-    padding: 50px;
+    padding: 80px;
+    justify-content: center;
+    color: white;
 }
 
 .callAction{
     display: flex;
     background-color: #3882f6;
     border-radius: 10px; /*rounds corners*/
-    padding: 50px;
+    padding: 30px;
     color: white;
     flex-wrap: wrap;
-    flex-grow: 1;
-    gap: 20px;
+    align-items: center;
+    gap: 10px;
 }
 .callActionquote{
     display: flex;
     color: white;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
 }
-
-.signupproduct{
+.text{
     display: flex;
 }
-
-.sign{
-    display: flex;
+.button2{
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
 }
